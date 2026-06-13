@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="theme-color" content="#312e81"/>
+  <link rel="manifest" href="/property-inspection-app/manifest.json"/>
+  <link rel="icon" href="/property-inspection-app/favicon.ico"/>
+  <title>Property Inspection App</title>
+  <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif}</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"/>
+  <script type="module" crossorigin src="/property-inspection-app/assets/index-C4sqjeql.js"></script>
+  <link rel="stylesheet" crossorigin href="/property-inspection-app/assets/index-DLx1hu_p.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/property-inspection-app/sw.js', { scope: '/property-inspection-app/' });
+      });
+    }
+  </script>
+</body>
+</html>
